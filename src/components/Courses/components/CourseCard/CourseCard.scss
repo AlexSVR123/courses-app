@@ -1,0 +1,44 @@
+.courseCard {
+    border: 2px solid green;
+    height: 120px;
+    display: inline-flex;
+    width: 100%;
+    margin: 5px 0;
+
+    .courseCard-col1 {
+        flex: 1;
+
+        .courseCard-title {
+            font-size: 22px;
+            padding: 8px;
+        }
+    
+        .courseCard-description {
+            padding: 5px;
+            max-height: 70px;
+            overflow: hidden;        
+        }
+    }
+
+    .courseCard-col2 {
+        padding: 10px;
+        max-width: 250px;
+        width: 250px;
+
+        span {
+            font-weight: bold;
+        }
+        
+        .courseCard-menu {
+            padding-top: 10px;
+        }
+
+        .courseCard-authors {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 250px;
+        }
+    }
+}

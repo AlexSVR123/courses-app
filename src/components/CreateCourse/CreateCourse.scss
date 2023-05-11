@@ -1,0 +1,27 @@
+.Input {
+    border: none
+}
+
+.CreateCourse-header {
+    padding-bottom: 10px;
+}
+
+.Button {
+    margin-top: 10px;
+}
+
+.CreateCourse-content {
+    padding: 20px 0px;
+}
+
+.CreateCourse-actions {
+    display: flex;
+
+    .button:first-child {
+        margin-right: 10px;
+    }
+
+    .button {
+        flex: 1;
+    }
+}

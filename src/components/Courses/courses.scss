@@ -1,0 +1,14 @@
+.courses {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+.courses-menu {
+    margin: 10px;
+    display: flex;
+
+    .courses-addCourse {
+        margin-left: auto;
+    }
+}
